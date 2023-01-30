@@ -1,6 +1,6 @@
 let productos;
 // Aquí se debe cambiar el URL del servicio en el BackEnd
-const URL_MAIN ='https://ch17-ecommerce.herokuapp.com/api/productos/';
+const URL_MAIN ='/api/productos/';
 function addItems(div_Productos) {
     fetch(URL_MAIN, {
         method: 'get'
